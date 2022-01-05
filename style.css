@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+}
+.first-section{
+    display: flex;
+    border: 0px solid gray;
+    width: 40%;
+    padding: 120px;
+    margin: 0 auto; 
+}
+
+.photo img{
+    width: 280px;
+
+}
+.explore-btn{
+    padding: 15px 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.explore-btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+  }
+
