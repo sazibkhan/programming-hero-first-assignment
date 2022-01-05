@@ -2,10 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-div{
-    border-left: 2px orange;
-
-}
 
 .title{
     color: green;
@@ -15,7 +11,7 @@ div{
     display: flex;
     border: 0px solid gray;
     width: 60%;
-    padding: 120px;
+    padding: 10px;
     margin: 0 auto; 
 }
 .right-side{
@@ -93,13 +89,16 @@ h1{
 
   }
 
-  /* Third Section Start */
-  .third-section{
-    display: flex;
-    border: 0px solid gray;
-    width: 60%;
-    padding: 120px;
-    margin: 0 auto; 
-}
 
 
+
+  .footer-section {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(15, 2, 2, 0.863);
+    color: white;
+    text-align: center;
+    padding: 12px;
+  }
