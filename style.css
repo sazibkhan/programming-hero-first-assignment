@@ -8,7 +8,7 @@ body{
 .first-section{
     display: flex;
     border: 0px solid gray;
-    width: 40%;
+    width: 60%;
     padding: 120px;
     margin: 0 auto; 
 }
@@ -30,4 +30,55 @@ body{
     color: white;
     cursor: pointer;
   }
+h1{
+    font-size: 50px;
+}    
 
+
+  /* Secound Section Start */
+
+.second-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .all-mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    width: 90%;
+    margin: 50px;
+    
+  }
+  .mission{
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 18px;
+    background-color: rgb(80, 216, 159);
+    margin-left: 10%;
+  }
+  .vission{
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    background-color: rgb(219, 142, 219);
+   
+  }
+  .goals{
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    background-color: rgb(230, 19, 230);
+    margin-right: 10%;
+  }
+  .mission-logo img {
+    width: 40%;
+    margin-right: 45%;
+
+  }
