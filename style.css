@@ -2,17 +2,27 @@ body{
     margin: 0;
     padding: 0;
 }
+div{
+    border-left: 2px orange;
+
+}
+
 .title{
     color: green;
+
 }
-.first-section{
+.parent-section{
     display: flex;
     border: 0px solid gray;
     width: 60%;
     padding: 120px;
     margin: 0 auto; 
 }
-
+.right-side{
+    padding: 10px;
+    margin: 30px;
+    
+}
 .photo img{
     width: 280px;
 
@@ -82,3 +92,14 @@ h1{
     margin-right: 45%;
 
   }
+
+  /* Third Section Start */
+  .third-section{
+    display: flex;
+    border: 0px solid gray;
+    width: 60%;
+    padding: 120px;
+    margin: 0 auto; 
+}
+
+
